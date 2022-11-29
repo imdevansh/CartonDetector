@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_three.jpg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_three.jpg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_box_two.jpg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/box_two.jpg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_one.jpg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_one.jpg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_camera.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/xml_file_paths.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/xml/file_paths.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/layout_activity_main.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img.jpeg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img.jpeg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_two.jpg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_two.jpg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-v24_image.jpg.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable-v24/image.jpg"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-pngs-12:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]

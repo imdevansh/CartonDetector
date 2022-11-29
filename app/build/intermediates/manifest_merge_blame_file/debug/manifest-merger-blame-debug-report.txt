@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.codelabs.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:5:5-80
+12-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:5:22-78
+13
+14    <queries>
+14-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:7:5-11:15
+15        <intent>
+15-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:8:9-10:18
+16            <action android:name="android.media.action.IMAGE_CAPTURE" />
+16-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:9:13-73
+16-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:9:21-70
+17        </intent>
+18    </queries>
+19
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21
+22    <application
+22-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:13:5-37:19
+23        android:allowBackup="true"
+23-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:14:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] /Users/ggs-bks/.gradle/caches/transforms-3/b802ec5f7dfd97200823836ad5713fb4/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:15:9-43
+28        android:label="Object Detection"
+28-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:16:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:17:9-54
+30        android:supportsRtl="true"
+30-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:18:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.ObjectDetection" >
+32-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:19:9-53
+33        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+33-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:20:9-26:20
+33-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:20:19-86
+34            <intent-filter>
+34-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:22:17-69
+35-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:24:17-77
+37-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:28:9-36:20
+42            android:name="androidx.core.content.FileProvider"
+42-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:29:13-62
+43            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+43-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:30:13-87
+44            android:exported="false"
+44-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:31:13-37
+45            android:grantUriPermissions="true" >
+45-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:32:13-47
+46            <meta-data
+46-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:33:13-35:54
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:34:17-67
+48                android:resource="@xml/file_paths" />
+48-->/Users/ggs-bks/Desktop/Androidpractice/starter/app/src/main/AndroidManifest.xml:35:17-51
+49        </provider>
+50
+51        <activity
+51-->[com.karumi:dexter:6.0.1] /Users/ggs-bks/.gradle/caches/transforms-3/1bffc874ad85ac8275908b4c72800fba/transformed/jetified-dexter-6.0.1/AndroidManifest.xml:27:9-29:72
+52            android:name="com.karumi.dexter.DexterActivity"
+52-->[com.karumi:dexter:6.0.1] /Users/ggs-bks/.gradle/caches/transforms-3/1bffc874ad85ac8275908b4c72800fba/transformed/jetified-dexter-6.0.1/AndroidManifest.xml:28:13-60
+53            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+53-->[com.karumi:dexter:6.0.1] /Users/ggs-bks/.gradle/caches/transforms-3/1bffc874ad85ac8275908b4c72800fba/transformed/jetified-dexter-6.0.1/AndroidManifest.xml:29:13-69
+54    </application>
+55
+56</manifest>
