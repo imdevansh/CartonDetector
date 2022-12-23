@@ -68,6 +68,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         private const val MAX_FONT_SIZE = 96F
         private const val GALLERY = 67
     }
+    
 
     private lateinit var captureImageFab: Button
     private lateinit var inputImageView: ImageView
