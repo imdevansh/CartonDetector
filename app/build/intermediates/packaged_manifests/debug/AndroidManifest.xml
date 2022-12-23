@@ -24,18 +24,27 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/applogo"
         android:label="Object Detection"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.ObjectDetection" >
-        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+        <activity
+            android:name="org.tensorflow.codelabs.objectdetection.splashScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
         </activity>
 
         <provider

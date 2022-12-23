@@ -28,6 +28,8 @@ import android.os.Environment
 import android.provider.MediaStore
 import android.provider.Settings
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -35,7 +37,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.cardview.widget.CardView
 import androidx.core.content.FileProvider
+import androidx.core.graphics.set
 import androidx.exifinterface.media.ExifInterface
 import androidx.lifecycle.lifecycleScope
 import com.karumi.dexter.Dexter
@@ -61,12 +66,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         const val TAG = "ODT"
         const val REQUEST_IMAGE_CAPTURE: Int = 1
         private const val MAX_FONT_SIZE = 96F
-//        private const val CAMERA = 2
         private const val GALLERY = 67
     }
 
     private lateinit var captureImageFab: Button
     private lateinit var inputImageView: ImageView
+    private lateinit var inputImageView2: CardView// previoslu we were using inputimageview to take hegith and width of the view.
     private lateinit var imgSampleOne: ImageView
     private lateinit var imgSampleTwo: ImageView
     private lateinit var imgSampleThree: ImageView
@@ -76,26 +81,57 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var bitmap: Bitmap
 
+    private lateinit var toolbar: Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         captureImageFab = findViewById(R.id.captureImageFab)
         inputImageView = findViewById(R.id.imageView)
-        imgSampleOne = findViewById(R.id.imgSampleOne)
-        imgSampleTwo = findViewById(R.id.imgSampleTwo)
-        imgSampleThree = findViewById(R.id.imgSampleThree)
+        inputImageView2 = findViewById(R.id.cardView)
+//        imgSampleOne = findViewById(R.id.imgSampleOne)
+//        imgSampleTwo = findViewById(R.id.imgSampleTwo)
+//        imgSampleThree = findViewById(R.id.imgSampleThree)
         tvPlaceholder = findViewById(R.id.tvPlaceholder)
         tvResult = findViewById(R.id.tvDescription)
-
+        toolbar = findViewById(R.id.toolBar)
+        setSupportActionBar(findViewById(R.id.toolBar))
+        supportActionBar?.setTitle("")
         captureImageFab.setOnClickListener(this)
-        imgSampleOne.setOnClickListener(this)
-        imgSampleTwo.setOnClickListener(this)
-        imgSampleThree.setOnClickListener(this)
+//        imgSampleOne.setOnClickListener(this)
+//        imgSampleTwo.setOnClickListener(this)
+//        imgSampleThree.setOnClickListener(this)
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+
+    // for menu
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        menuInflater.inflate(R.menu.settings_menu,menu)
+        return true
+    }
+
+    //handling options of menu
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.settings -> {
+                Toast.makeText(applicationContext, "click on setting", Toast.LENGTH_LONG).show()
+                true
+            }
+            R.id.exit ->{
+                Toast.makeText(applicationContext, "click on exit", Toast.LENGTH_LONG).show()
+                System.exit(1)
+                return true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (resultCode == Activity.RESULT_OK) {
@@ -148,8 +184,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 //                    Log.e(TAG, e.message.toString())
 //                }
                 val pictureDialog = AlertDialog.Builder(this)
+                pictureDialog.setIcon(R.drawable.applogo)
                 pictureDialog.setTitle("Select Action")
-                val pictureDialogItems = arrayOf("Select photo from gallery", "Capture from camera")
+                val pictureDialogItems = arrayOf("* Select photo from gallery", "* Capture from camera")
                 pictureDialog.setItems(pictureDialogItems){
                         _, which ->
                     when(which){
@@ -159,15 +196,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 pictureDialog.show()
             }
-            R.id.imgSampleOne -> {
-                setViewAndDetect(getSampleImage(R.drawable.img))
-            }
-            R.id.imgSampleTwo -> {
-                setViewAndDetect(getSampleImage(R.drawable.box_two))
-            }
-            R.id.imgSampleThree -> {
-                setViewAndDetect(getSampleImage(R.drawable.image))
-            }
+//            R.id.imgSampleOne -> {
+//                setViewAndDetect(getSampleImage(R.drawable.image1))
+//            }
+//            R.id.imgSampleTwo -> {
+//                setViewAndDetect(getSampleImage(R.drawable.image2))
+//            }
+//            R.id.imgSampleThree -> {
+//                setViewAndDetect(getSampleImage(R.drawable.image3))
+//            }
         }
     }
 
@@ -227,11 +264,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         // Step 2: Initialize the detector object
         val options = ObjectDetector.ObjectDetectorOptions.builder()
-            .setScoreThreshold(0.5F)
+            .setScoreThreshold(0.8F)
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this, // the application context
-            "detectMeta.tflite", // must be same as the filename in assets folder
+            "vertexmodel2.tflite", // must be same as the filename in assets folder
             options
         )
         // Step 3: feed given image to the model and print the detection result
@@ -256,10 +293,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         for ((i, obj) in results.withIndex()){
             for ((j, category) in obj.categories.withIndex()) {
 //                Log.d(TAG,"category.label is"+category.label)
-                if (category.label == "    id: 1"){
+                if (category.label == "Box"){
                     count = count + 1
                 }
-                else if (category.label =="item {"){
+                else if (category.label =="Barcode"){
                     count2 = count2+1
                 }
             }
@@ -292,6 +329,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
      */
     private fun setViewAndDetect(bitmap: Bitmap) {
         // Display capture image
+//        bitmap.height = inputImageView.height
+//        bitmap.width = inputImageView.width
         inputImageView.setImageBitmap(bitmap)
         tvPlaceholder.visibility = View.INVISIBLE
 
@@ -308,8 +347,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
      */
     private fun getCapturedImage(): Bitmap {
         // Get the dimensions of the View
-        val targetW: Int = inputImageView.width
-        val targetH: Int = inputImageView.height
+        val targetW: Int = inputImageView2.width
+        val targetH: Int = inputImageView2.height
+        Log.d("Width","target widthy $targetW and targeH $targetH")
 
         val bmOptions = BitmapFactory.Options().apply {
             // Get the dimensions of the bitmap
@@ -317,11 +357,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             BitmapFactory.decodeFile(currentPhotoPath, this)
 
-            val photoW: Int = outWidth
-            val photoH: Int = outHeight
+            val photoW: Int = (outWidth)
+            val photoH: Int = (outHeight)
 
             // Determine how much to scale down the image
-            val scaleFactor: Int = max(1, min(photoW / targetW, photoH / targetH))
+            val scaleFactor: Int = max(1, min(photoW / 1080, photoH / 1080))
 
             // Decode the image file into a Bitmap sized to fill the View
             inJustDecodeBounds = false
@@ -438,7 +478,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         detectionResults.forEach {
             // draw bounding box
             pen.color = Color.RED
-            pen.strokeWidth = 2F
+            pen.strokeWidth = 1F
             pen.style = Paint.Style.STROKE
             val box = it.boundingBox
             canvas.drawRect(box, pen)
@@ -449,7 +489,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // calculate the right font size
             pen.style = Paint.Style.FILL
             pen.color = Color.GREEN
-            pen.strokeWidth = 2F
+            pen.strokeWidth = 1F
 
             pen.textSize = MAX_FONT_SIZE
             pen.getTextBounds(it.text, 0, it.text.length, tagSize)
@@ -461,20 +501,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             var margin = (box.width() - tagSize.width()) / 2.0F
             if (margin < 0F) margin = 0F
 
-            Log.d(TAG,"tag is"+it.text)
-            var str = it.text
-            val delim = ","
-            val arr = Pattern.compile(delim).split(str)
-            var mainStr = arr[0].toString()
-            var labeln = ""
-            if (mainStr == "    id: 1"){
-                labeln = "Box"
-            }
-            else if( mainStr == "item {"){
-                labeln = "Barcode"
-            }
+//            Log.d(TAG,"tag is"+it.text)
+//            var str = it.text
+//            val delim = ","
+//            val arr = Pattern.compile(delim).split(str)
+//            var mainStr = arr[0].toString()
+//            var labeln = ""
+//            if (mainStr == "     id: 1"){
+//                labeln = "Box"
+//            }
+//            else if( mainStr == "item {"){
+//                labeln = "Barcode"
+//            }
             canvas.drawText(
-               labeln, box.left + margin,
+                it.text,box.left + margin,
                 box.top + tagSize.height().times(1F), pen
             )
 

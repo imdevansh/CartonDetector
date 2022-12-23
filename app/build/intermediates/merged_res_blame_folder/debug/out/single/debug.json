@@ -1,94 +1,142 @@
 [
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_three.jpg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_three.jpg"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_box_two.jpg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/box_two.jpg"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-v24_image.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable-v24/image.jpg"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_one.jpg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_one.jpg"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_camera.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_camera.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_one.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_one.jpg"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/xml_file_paths.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/xml/file_paths.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/xml_file_paths.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/xml/file_paths.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_roundedcorner.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/roundedcorner.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_baseline_exit_to_app_24.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_launcher_background.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/menu_settings_menu.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/menu/settings_menu.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/layout_activity_main.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/layout/activity_main.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img.jpeg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img.jpeg"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_baseline_settings_24.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_image2.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/image2.jpg"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_two.jpg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_two.jpg"
+        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/layout_activity_splash_screen.xml.flat",
+        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-v24_image.jpg.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/drawable-v24/image.jpg"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_grp1.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/grp1.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_box_two.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/box_two.jpg"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-pngs-12:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_three.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_three.jpg"
     },
     {
-        "merged": "org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-pngs-12:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_applogo.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/applogo.png"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_image1.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/image1.jpg"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_rounded_corner_btn.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/rounded_corner_btn.xml"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_img_meal_two.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/img_meal_two.jpg"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_ic_camera.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/layout_activity_main.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_grp2.xml.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/grp2.xml"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-merged_res-17:/drawable_image3.jpg.flat",
+        "source": "/Users/ggs-bks/.gradle/daemon/7.4/org.tensorflow.codelabs.objectdetection.app-main-19:/drawable/image3.jpg"
     }
 ]

@@ -1,2 +1,0 @@
-org/tensorflow/codelabs/objectdetection/BuildConfig.java
- org.tensorflow.codelabs.objectdetection.BuildConfig
